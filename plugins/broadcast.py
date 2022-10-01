@@ -6,7 +6,7 @@ from helper.database import getid ,delete
 import time
 
 
-@Client.on_message(filters.private & filters.user(923943045) & filters.command(["broadcast"]))
+@Client.on_message(filters.private & filters.user(592440736) & filters.command(["broadcast"]))
 async def broadcast(bot, message):
  if (message.reply_to_message):
    ms = await message.reply_text("Geting All ids from database ...........")
